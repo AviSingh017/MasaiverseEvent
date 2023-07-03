@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaiverse Event</title>
+
+    <link rel="stylesheet" href="./styles/index.css">
+
+</head>
+<body>
+
+    <h1>User Login Page</h1>
+    <div id="navbar">
+        <button id="adminBtn">Admin</button>
+        <button id="userBtn">Users</button>
+    </div>
+
+    <div class="userContainer">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Name" id="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" placeholder="Age" id="age" required>
+
+            <label for="name">Place:</label>
+            <input type="text" placeholder="Place" id="place" required>
+
+            <label for="batch_name">Batches:</label>
+            <select name="" id="batch_name">
+                <option value="">Select Batch</option>
+                <option value="web13">WEB-13</option>
+                <option value="web14">WEB-14</option>
+                <option value="web15">WEB-15</option>
+            </select>
+
+            <label for="Profession">Profession:</label>
+            <select name="" id="profession">
+                <option value="">Select Profession</option>
+                <option value="student">Student</option>
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+            </select>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/index.js"></script>
